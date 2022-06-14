@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react'
 import HomeComponent from './components/home-component'
 
-function WithCors() {
+function WithoutCors() {
   const [data, setData] = useState({ name: null })
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    fetch('http://localhost:4000')
+    fetch('http://localhost:8000')
       .then(async (response) => {
         const result = await response.json()
         setData(result)
@@ -23,4 +23,4 @@ function WithCors() {
   )
 }
 
-export default WithCors
+export default WithoutCors;
