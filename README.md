@@ -33,7 +33,7 @@ To keep it simple, we have 2 separate folders to demostrate one with CORS enable
     -- api # this is where we store our server-side api route
   - index.js # /
   - with-cors.js # /with-cors
-  - index.js # /without-cors
+  - without-cors.js # /without-cors
 - with-cors-server
 - without-cors-server
 ```
