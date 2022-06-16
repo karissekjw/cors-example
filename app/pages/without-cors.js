@@ -6,7 +6,7 @@ function WithCors() {
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    fetch('http://localhost:4000')
+    fetch('http://localhost:4000', { headers: { 'Content-Type': 'application/json' } })
       .then(async (response) => {
         const result = await response.json()
         setData(result)

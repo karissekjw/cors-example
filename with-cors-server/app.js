@@ -11,7 +11,7 @@ app.use(cors(corsOptions))
 const port = 8000
 
 app.get('/', (_, res) => {
-  res.send({ name: 'Mary Poppins'}, 200)
+  res.status(200).send({ name: 'Mary Poppins'})
 })
 
 app.listen(port, () => {
