@@ -26,12 +26,13 @@ npm run start # run app
 ```
 
 ## Project Directory
-To keep it simple, we have 2 separate folders to demostrate one with CORS enabled and another without CORS enabled, and the `app` folder to store our client application.
+To keep it simple, we have 2 separate folders to demostrate one server with CORS enabled and another without CORS enabled, and the `app` folder to store our client application.
 ```
 - app
   -- pages
     -- api # this is where we store our server-side api route
   - index.js # /
+  - ssr.js # /ssr
   - with-cors.js # /with-cors
   - without-cors.js # /without-cors
 - with-cors-server
@@ -44,7 +45,11 @@ To keep it simple, we have 2 separate folders to demostrate one with CORS enable
 http://localhost:3000
 
 ### Without CORS
+**Client-Side Rendering**
 http://localhost:3000/without-cors
+
+**Server-Side Rendering**
+http://localhost:3000/ssr
 
 ### With CORS
 http://localhost:3000/with-cors
