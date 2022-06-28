@@ -1,5 +1,5 @@
 # cors-example
-This repo contains the demo to this article that I've written here. Do check it out if you haven't done so! The article attempts to make sense of the very common CORS policy error by analysing how SOP and CORS apply in Client-Side Rendering, how they differ in Server-Side Rendering, and, most importantly, how we can resolve the error.
+This repo contains the demo to this article that I've written [here](https://medium.com/@karissekhoo/access-blocked-by-cors-policy-whats-cors-and-what-should-you-do-ddcf24955966). Do check it out if you haven't done so! The article attempts to make sense of the very common CORS policy error by analysing how SOP and CORS apply in Client-Side Rendering, how they differ in Server-Side Rendering, and, most importantly, how we can resolve the error.
 
 
 ## :hammer_and_wrench: How to set up locally
