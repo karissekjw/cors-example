@@ -41,11 +41,11 @@ To keep it simple, we have 2 separate folders to demostrate one server with CORS
 - without-cors-server
 ```
 
-## :lightbulb: How to use
+## :bulb: How to use
 
 | Name      | URL                      | Rendering Type | Description |
 | ----------- | ---------------------- | ---------------------- | ----------- |
-| Same origin | http://localhost:3000       | CSR       |Visit URL to discover how client-side rendering works when fetching from the same origin.
-| Without CORS | http://localhost:3000/without-cors | CSR        | Visit URL to discover how client-side rendering works when fetching from a different origin.
-| Without CORS | http://localhost:3000/ssr        | SSR        | Visit URL to discover how server-side rendering works when fetching from a different origin.
-| With CORS | http://localhost:3000/with-cors    | CSR        | Visit URL to discover how server-side rendering when fetching from a different origin.
+| Same origin | http://localhost:3000       | CSR       |Visit URL to discover how client-side rendering works and fetches data from the same origin successfully.
+| Without CORS | http://localhost:3000/without-cors | CSR        | Visit URL to discover how client-side rendering works and how it fails to fetch data from a different origin.
+| Without CORS | http://localhost:3000/ssr        | SSR        | Visit URL to discover how server-side rendering works and fetches data from a different origin successfully despite not having CORS enabled.
+| With CORS | http://localhost:3000/with-cors    | CSR        | Visit URL to discover how client-side rendering and fetches data from the different origin.
