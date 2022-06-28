@@ -3,6 +3,7 @@ This repo contains the demo to this article that I've written here. Do check it 
 
 
 ## :hammer_and_wrench: How to set up locally
+We'll set up 3 different apps. 1 as frontend app, and another 2 as backend services.
 ### Client App
 After installation, proceed to http://localhost:3000
 ```shell
