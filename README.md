@@ -1,6 +1,8 @@
 # cors-example
+This repo contains the demo to this article that I've written here. Do check it out if you haven't done so! The article attempts to make sense of the very common CORS policy error by analysing how SOP and CORS apply in Client-Side Rendering, how they differ in Server-Side Rendering, and, most importantly, how we can resolve the error.
 
-## Set Up
+
+## :hammer_and_wrench: How to set up locally
 ### Client App
 After installation, proceed to http://localhost:3000
 ```shell
@@ -25,7 +27,7 @@ npm i # install relevant packages
 npm run start # run app
 ```
 
-## Project Directory
+## :books: Project Directory
 To keep it simple, we have 2 separate folders to demostrate one server with CORS enabled and another without CORS enabled, and the `app` folder to store our client application.
 ```
 - app
@@ -39,17 +41,11 @@ To keep it simple, we have 2 separate folders to demostrate one server with CORS
 - without-cors-server
 ```
 
-## How to use
+## :lightbulb: How to use
 
-### Same origin
-http://localhost:3000
-
-### Without CORS
-**Client-Side Rendering**
-http://localhost:3000/without-cors
-
-**Server-Side Rendering**
-http://localhost:3000/ssr
-
-### With CORS
-http://localhost:3000/with-cors
+| Name      | URL                      | Rendering Type | Description |
+| ----------- | ---------------------- | ---------------------- | ----------- |
+| Same origin | http://localhost:3000       | CSR       |Visit URL to discover how client-side rendering works when fetching from the same origin.
+| Without CORS | http://localhost:3000/without-cors | CSR        | Visit URL to discover how client-side rendering works when fetching from a different origin.
+| Without CORS | http://localhost:3000/ssr        | SSR        | Visit URL to discover how server-side rendering works when fetching from a different origin.
+| With CORS | http://localhost:3000/with-cors    | CSR        | Visit URL to discover how server-side rendering when fetching from a different origin.
